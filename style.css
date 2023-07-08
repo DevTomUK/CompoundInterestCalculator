@@ -1,0 +1,58 @@
+.bigcontainer, .titlebox {
+    background-color: rgb(239, 241, 239);
+}
+
+.bigcontainer {
+    display: flex;
+}
+
+.detailsresults {
+    background-color: rgb(240, 245, 248);
+    height: 750px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+ input:hover {
+    background-color: rgb(252, 252, 252);
+ }
+
+ #helpBox {
+    text-align: center;
+    height: 300px;
+ }
+
+@media (max-width: 575px) {
+    .bigcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    .hidehelp {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    .form-control::placeholder {
+      opacity: 0 !important;
+    }
+  }
+
+  #resultsBox {
+    font-size: 2vw;
+  }
+
+  @media (max-width: 575px) {
+    #resultsBox {
+        font-size: 4vw;
+    }
+  }
+
+  h1.display-5 {
+    font-weight: 600;
+  }
